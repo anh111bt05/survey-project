@@ -1,0 +1,16 @@
+.SummaryScreen {
+    margin: 50px auto;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  .headline {
+    margin: 0 0 0.5em;
+    font-size: 30px;
+  }
+
+  .score-display {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,12 @@
+.container-left{
+  width: 200px !important;
+  background-color:#1ba8f1;
+
+  .nav-item a{
+    color: white;
+
+    &:hover{
+      background-color: yellowgreen;
+    }
+  }
+}

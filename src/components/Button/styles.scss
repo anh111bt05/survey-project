@@ -1,0 +1,16 @@
+$btn-color: hsl(236, 64%, 54%);
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  font-family: inherit;
+  text-decoration: none;
+  text-align: center;
+  background: $btn-color;
+  transition: all 150ms ease-in-out;
+  outline: none;
+
+  &:hover {
+    background: darken($btn-color, 15%);
+  }
+}

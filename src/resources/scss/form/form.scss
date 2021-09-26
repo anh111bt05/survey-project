@@ -1,0 +1,11 @@
+.card-container{
+  width: 100%;
+  height: auto;
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    margin: 20px auto;
+  }
+}

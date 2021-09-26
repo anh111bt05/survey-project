@@ -1,0 +1,28 @@
+.main-admin-manage{
+    width: 100%;
+    height: 100%;
+
+  .menu-user-manage{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: blanchedalmond;
+
+    .setting-type{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      cursor: pointer;
+
+      &:hover{
+        background-color: greenyellow;
+      }
+    }
+
+    .selected{
+      background-color: coral;
+    }
+  
+  }
+}

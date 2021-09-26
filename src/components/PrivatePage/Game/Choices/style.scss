@@ -1,0 +1,23 @@
+.choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 0 30px;
+  padding: 0;
+
+
+  & > div {
+    cursor: pointer;
+    font-size: 20px;
+    &:before {
+      content: "✘     ";
+    }
+  }
+
+  .selected {
+    &:before {
+      content: "✔   ";
+      color: chartreuse;
+      // content: '✘';
+    }
+  }
+}

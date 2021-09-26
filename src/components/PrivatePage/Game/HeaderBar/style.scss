@@ -1,0 +1,18 @@
+.GameScreen {
+  width: 760px;
+  margin: 50px auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+
+  .header-bar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .progress {
+      width: auto;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
+}

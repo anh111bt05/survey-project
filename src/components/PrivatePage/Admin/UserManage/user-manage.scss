@@ -1,0 +1,48 @@
+
+.user-manager{
+  padding: 20px;
+
+  .btn-add{
+    width: 100px;
+    background-color: chocolate;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .button-container{
+    display: flex;
+    gap: 10px;
+
+    .btn-edit{
+      background-color: chocolate;
+    }
+  }
+}
+
+#user-manage-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#user-manage-table td, #user-manage-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#user-manage-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#user-manage-table tr:hover {background-color: #ddd;}
+
+#user-manage-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
